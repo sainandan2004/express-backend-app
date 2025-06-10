@@ -69,8 +69,13 @@ app.get('/', function(req, res) {
 // // ensure that only admins can do that.
 
 app.listen(port, function() {
-    console.log(`Example app listening on port ${port}`)
     console.log(`http://localhost:${port}`)
+    //trying to add new line
+    console.log(`Server is running on port ${port}`)
+    console.log(`You can access the server at http://localhost:${port}`)
+    console.log(`Make sure to use the correct port number in your requests`)
+    console.log(`Have a great day!`)
+    console.log(`Happy coding!`)
 })
 
 //i am a new learner learning to use git and github
